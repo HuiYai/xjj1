@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>熊晋君 - 个人主页</title>
+    <!-- 引入外部CSS文件 -->
+    <link rel="stylesheet" href="aaa.css">
+    <!-- 引入字体图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">熊晋君 <span>个人主页</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#hobbies">兴趣爱好</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- 首页横幅 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>你好，我是<span>熊晋君</span></h1>
+                <p>时珍学院 · 大三学生 · 贵州安顺</p>
+                <a href="#about" class="btn">了解更多</a>
+            </div>
+        </div>
+    </section>
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <div class="avatar"></div>
+                </div>
+                <div class="about-text">
+                    <h3>基本信息</h3>
+                    <ul>
+                        <li><i class="fas fa-user"></i> 姓名：熊晋君</li>
+                        <li><i class="fas fa-birthday-cake"></i> 年龄：22岁</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 籍贯：贵州安顺</li>
+                        <li><i class="fas fa-graduation-cap"></i> 学校：时珍学院</li>
+                        <li><i class="fas fa-book"></i> 年级：大三</li>
+                    </ul>
+                    <p>
+                        我是一名时珍学院的大三学生，来自美丽的贵州安顺。性格开朗乐观，
+                        热爱学习和探索新知识，在校期间认真学习专业知识，积极参加各类实践活动，
+                        努力提升自己的综合能力。期待通过不断努力，成为一名优秀的专业人才。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 技能展示 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">我的技能</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-book-medical"></i>
+                    <h3>专业知识</h3>
+                    <p>扎实的医学相关专业基础知识，熟悉各类医学理论</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-laptop"></i>
+                    <h3>办公技能</h3>
+                    <p>熟练使用Office办公软件、数据分析工具等</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-language"></i>
+                    <h3>语言能力</h3>
+                    <p>良好的普通话表达能力，基础英语读写能力</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-users"></i>
+                    <h3>团队协作</h3>
+                    <p>具备良好的沟通能力和团队合作精神</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 兴趣爱好 -->
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <h2 class="section-title">兴趣爱好</h2>
+            <div class="hobbies-container">
+                <div class="hobby-item">
+                    <i class="fas fa-hiking"></i>
+                    <span>户外徒步</span>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-book"></i>
+                    <span>阅读书籍</span>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-music"></i>
+                    <span>聆听音乐</span>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-cookbook"></i>
+                    <span>美食制作</span>
+                </div>
+                <div class="hobby-item">
+                    <i class="fas fa-gamepad"></i>
+                    <span>休闲游戏</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 联系我 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>邮箱：example@163.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>电话：138****1234</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>地址：贵州安顺</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="你的名字" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="你的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="留言内容" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn">发送留言</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 熊晋君 - 个人主页 | 所有权利保留</p>
+        </div>
+    </footer>
+    <!-- 引入外部JavaScript文件 -->
+    <script src="js.js"></script>
+</body>
+</html>
+
